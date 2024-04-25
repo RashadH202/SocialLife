@@ -1,31 +1,40 @@
-// Login.js
-import React, { useState } from 'react';
-import authService from './authService';
+import React from 'react';
+import Welcome from './Welcome';
+import {Amplify} from 'aws-amplify';
+import { Authenticator, withAuthenticator } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
+import awsExports from '../aws-exports';
 
-const Login = ({ onLogin }) => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const user = await authService.login(username, password);
-      onLogin(user);
-    } catch (error) {
-      console.error('Login failed:', error);
-    }
-  }
+Amplify.configure(awsExports);
 
+function App() {
   return (
-    <div>
-      <h2>Login</h2>
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} />
-        <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-        <button type="submit">Login</button>
-      </form>
+    <div className="App">
+      <Authenticator>
+        {({ signOut }) => (
+          <main>
+            <header className='App-header'>
+              {/* Quiz Component */}
+              <Welcome />
+              {/* Sign Out Button */}
+              <button 
+                onClick={signOut} 
+                style={{ 
+                  margin: '20px', 
+                  fontSize: '0.8rem', 
+                  padding: '5px 10px', 
+                  marginTop: '20px'
+                }}
+              >
+                Sign Out
+              </button>
+            </header>
+          </main>
+        )}
+      </Authenticator>
     </div>
   );
 }
 
-export default Login;
+export default withAuthenticator(App);

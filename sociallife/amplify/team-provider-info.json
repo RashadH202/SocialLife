@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sociallife-dev-8c2c0-authRole",
+      "UnauthRoleArn": "arn:aws:iam::732161529978:role/amplify-sociallife-dev-8c2c0-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::732161529978:role/amplify-sociallife-dev-8c2c0-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sociallife-dev-8c2c0-deployment",
+      "UnauthRoleName": "amplify-sociallife-dev-8c2c0-unauthRole",
+      "StackName": "amplify-sociallife-dev-8c2c0",
+      "StackId": "arn:aws:cloudformation:us-east-1:732161529978:stack/amplify-sociallife-dev-8c2c0/d2059d60-0313-11ef-a953-1220e7af4c95",
+      "AmplifyAppId": "d16g009kmmwieu"
+    },
+    "categories": {
+      "auth": {
+        "sociallifec3abcff3": {}
+      }
+    }
+  }
+}
