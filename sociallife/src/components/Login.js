@@ -4,19 +4,19 @@ import {Amplify} from 'aws-amplify';
 import { Authenticator, withAuthenticator } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 import awsExports from '../aws-exports';
-
+import Dashboard from './Dashboard';
 
 Amplify.configure(awsExports);
 
-function App() {
+function Login() {
   return (
-    <div className="App">
+    <div className="Login">
       <Authenticator>
         {({ signOut }) => (
           <main>
-            <header className='App-header'>
+            <header className='Login-header'>
               {/* Quiz Component */}
-              <Welcome />
+              
               {/* Sign Out Button */}
               <button 
                 onClick={signOut} 
@@ -37,4 +37,4 @@ function App() {
   );
 }
 
-export default withAuthenticator(App);
+export default withAuthenticator(Login);
