@@ -1,0 +1,127 @@
+[
+{
+    "id": "1",
+    "username": "BobBuilder",
+    "fname": "bob",
+    "lname": "billder",
+    "skilllevel": "5.",
+    "studyingfor": ["AWSCP", "AWSCA"],
+    "email": "bobbuillder@gaming.com",
+    "rank": "1",
+    "savedFlashcards" : {
+        "id": "1",
+        "Term": "DynamoDB?",
+        "correct_answer": "Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS),",
+        "question_type": "flashcard",
+        "test": "amazon web service cloud practitioner"
+
+    },
+    "createdQuestions": {
+        
+            "id": "120",
+            "question": "What is Amazon CloudWatch?",
+            "choices": [
+              "A service for securely transferring files over the internet into and out of Amazon S3",
+              "A service for managing encryption keys",
+              "A monitoring and observability service",
+              "A service for automating the deployment and management of AWS resources"
+            ],
+            "correct_answer": "A monitoring and observability service.",
+            "explanation": "Amazon CloudWatch is a monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health."
+          
+    },
+    "savedQuestions": {
+        "id": "1",
+        "question": "What is Amazon DynamoDB?",
+        "choices": [
+            "A service for securely transferring files over the internet into and out of Amazon S3",
+            "A service for deploying and managing containers",
+            "A fully managed NoSQL database service",
+            "A fully managed relational database service"
+        ],
+        "correct_answer": "A fully managed NoSQL database service.","explination:": "Amazon DynamoDB is a fast and flexible NoSQL database service for any scale."
+    },
+    "testScores": [
+        {
+          "testName": "AWSCP Practice Test",
+          "date": "2024-04-01",
+          "score": 85
+        },
+        {
+          "testName": "AWSCA Practice Test",
+          "date": "2024-03-15",
+          "score": 92
+        },
+        {
+          "testName": "AWSCP Practice Test",
+          "date": "2024-02-20",
+          "score": 78
+        }
+      ],
+    "createdAt": "2024-04-08T12:00:00Z",
+    "updatedAt": "2024-04-08T12:30:00Z"
+
+},
+{
+    "id": "2",
+    "username": "sallyBuilder",
+    "fname": "sally",
+    "lname": "billder",
+    "skilllevel": "7",
+    "studyingfor": ["AWSCP", "AWSCA"],
+    "email": "bobbuillder@gaming.com",
+    "rank": "2",
+    "savedFlashcards" : {
+        "id": "1",
+        "Term": "DynamoDB?",
+        "correct_answer": "Amazon DynamoDB is a fully managed NoSQL database service provided by Amazon Web Services (AWS),",
+        "question_type": "flashcard",
+        "test": "amazon web service cloud practitioner"
+
+    },
+    "createdQuestions": {
+        
+            "id": "120",
+            "question": "What is Amazon CloudWatch?",
+            "choices": [
+              "A service for securely transferring files over the internet into and out of Amazon S3",
+              "A service for managing encryption keys",
+              "A monitoring and observability service",
+              "A service for automating the deployment and management of AWS resources"
+            ],
+            "correct_answer": "A monitoring and observability service.",
+            "explanation": "Amazon CloudWatch is a monitoring and observability service that provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health."
+          
+    },
+    "savedQuestions": {
+        "id": "1",
+        "question": "What is Amazon DynamoDB?",
+        "choices": [
+            "A service for securely transferring files over the internet into and out of Amazon S3",
+            "A service for deploying and managing containers",
+            "A fully managed NoSQL database service",
+            "A fully managed relational database service"
+        ],
+        "correct_answer": "A fully managed NoSQL database service.","explination:": "Amazon DynamoDB is a fast and flexible NoSQL database service for any scale."
+    },
+    "testScores": [
+        {
+          "testName": "AWSCP Practice Test",
+          "date": "2024-04-01",
+          "score": 85
+        },
+        {
+          "testName": "AWSCA Practice Test",
+          "date": "2024-03-15",
+          "score": 92
+        },
+        {
+          "testName": "AWSCP Practice Test",
+          "date": "2024-02-20",
+          "score": 78
+        }
+      ],
+    "createdAt": "2024-04-08T12:00:00Z",
+    "updatedAt": "2024-04-08T12:30:00Z"
+
+}]

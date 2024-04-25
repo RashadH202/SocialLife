@@ -9,7 +9,7 @@ const Navbar = ({ isAuthenticated, onLogin, onLogout }) => {
   return (
     <BootstrapNavbar bg="light" expand="lg">
       <Container>
-        <BootstrapNavbar.Brand as={Link} to="/">Your App Name</BootstrapNavbar.Brand>
+        <BootstrapNavbar.Brand as={Link} to="/">SocialLife</BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
